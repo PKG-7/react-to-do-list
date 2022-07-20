@@ -1,0 +1,7 @@
+Урок https://youtu.be/XwIiBXZ41Os
+
+Данный этап:
+Таймкод https://youtu.be/XwIiBXZ41Os?t=534
+
+не понимаю useState
+как передавать и что передавать

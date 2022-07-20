@@ -22,11 +22,14 @@ function App() {
       <header>
         <h1> Список задач: {todos.length}</h1>
       </header>  
-      <ToDoForm />
-      {todos.map(() => {
+      <ToDoForm addTask={addTask} />
+      {todos.map((todo) => {
         return (
           <ToDo
+          todo={todo}
           key={todos.id}
+          toggleTask={handleToggle}
+          removeTask={removeTask}
           />
         )
       })}
