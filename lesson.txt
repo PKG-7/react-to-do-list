@@ -1,7 +1,7 @@
 Урок https://youtu.be/XwIiBXZ41Os
 
 Данный этап:
-Таймкод https://youtu.be/XwIiBXZ41Os?t=727
+Таймкод https://youtu.be/XwIiBXZ41Os?t=950
 
 не понимаю useState
 как передавать и что передавать
@@ -9,4 +9,5 @@
 деструктуризация
 
 setTodos([...todos, newItem])
+Спред оператор?
 что значат эти три точки?
