@@ -1,10 +1,16 @@
 import { useState } from "react"
 
-export default function ToDoForm() {
+export default function ToDoForm({ addTask }) {
     const [userInput, setUserInput] = useState('')
 
-    const handleChange = () => {}
-    const handleSubmit = () => {}
+    const handleChange = (e) => {
+        setUserInput(e.currentTarget.value)
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault()
+        addTask(userInput)
+    }
     const handleKeyPress = () => {}
 
     return (
